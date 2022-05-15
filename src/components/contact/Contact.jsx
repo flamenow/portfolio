@@ -37,7 +37,7 @@ const Contact = () => {
             <AiOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>marcosmujica3@gmail.com</h5>
-            <a href="mailto:marcosmujica3@gmail.com" target="_blank">
+            <a href="mailto:contato@gomujica.online" target="_blank">
               Send a message
             </a>
           </article>

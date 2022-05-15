@@ -30,6 +30,9 @@
   display: inline-block;
   font-size: 0.8rem;
 }
+.contact__option h5 {
+  overflow-wrap: break-word;
+}
 
 /* =================== FORM =============*/
 form {
