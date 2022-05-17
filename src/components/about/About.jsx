@@ -21,28 +21,50 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>2+ years studing</small>
+              <small>2+ Years Studing</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>200+ WorldWide</small>
+              <small>5+ Satisfied</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>8+ Completed</small>
+              <small>6+ Completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
-            ratione quisquam recusandae repellat mollitia error natus quasi
-            cupiditate alias consequuntur sunt commodi, nesciunt, magnam iure
-            repellendus? Fuga officiis vero facilis.
+            My name is Marcos Mujica, 24, born in Montevideo - Uruguay, living
+            in Pelotas-RS, south of Brazil. I graduated in International Affairs
+            in 2019 at the Federal University of Pelotas - UFPel.
           </p>
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk
-          </a>
+          <p>
+            Since before the pandemic, I was already studying C, ladder,
+            assembly and delphi at my electronic vocational training at IFSul,
+            finished in 2018. In 2020 I joined Alura and started studiyng
+            WebDesign, User Experience, CSS, HTML, JavaScript, JAVA, PHP, RUBY
+            and more. After getting to know a little about both sides of web
+            development, I fell in love with UX and decided to focus in
+            front-end and UX.
+          </p>{" "}
+          <p>
+            {" "}
+            It was then that I did the UX Unicorn course, offered by the known
+            Leandro Rezende, where I formed a team and made a UX project.
+          </p>
+          <p>
+            I also lived 1 year in Gran Canária-Spain (2010), oppened my own
+            pizzaria (2021) and met amazing people in the process! Nowadays, I'm
+            searching for a full time job working as front-end dev or ux
+            designer. Meanwhile, I'm working as a freelancer web/graphic
+            designer to a few companies.
+          </p>
+          <div className="about__button">
+            <a href="#contact" className="btn btn-large">
+              Let's Talk
+            </a>
+          </div>
         </div>
       </div>
     </section>

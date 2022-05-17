@@ -17,33 +17,26 @@ import "swiper/css/pagination";
 const testimonialsData = [
   {
     avatar: AVATAR1,
-    name: "Tina Snow",
-    review:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste perferendis debitis voluptatem rem cupiditate, repellendus eius facilis provident aspernatur eaque odit quis, neque quisquam nisi excepturi delectus quo molestias fugiat.",
+    name: "Marina Marchi",
+    review: "Yet to be taken",
   },
   {
     avatar: AVATAR2,
-    name: "Tina Snow",
+    name: "Matheus Nogueira",
     review:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste perferendis debitis voluptatem rem cupiditate, repellendus eius facilis provident aspernatur eaque odit quis, neque quisquam nisi excepturi delectus quo molestias fugiat.",
+      "Sempre que precisei de ajuda com materiais, páginas e problemas de UX, o Mujica estava lá para ajudar. Mesmo aquele trabalho com pouco tempo para entregar, nunca tivemos um trabalho que não fosse entregue e com qualidade aprovada. Super indico!",
   },
   {
     avatar: AVATAR3,
-    name: "Tina Snow",
+    name: "Guilherme Rodrigues",
     review:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste perferendis debitis voluptatem rem cupiditate, repellendus eius facilis provident aspernatur eaque odit quis, neque quisquam nisi excepturi delectus quo molestias fugiat.",
-  },
-  {
-    avatar: AVATAR4,
-    name: "Tina Snow",
-    review:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste perferendis debitis voluptatem rem cupiditate, repellendus eius facilis provident aspernatur eaque odit quis, neque quisquam nisi excepturi delectus quo molestias fugiat.",
+      "Fui sócio do Marcos no projeto de sua pizzaria uruguaia. Juntamos nossos conhecimentos e formamos uma dupla eficiente na gestão do negócio. Da cozinha a gestão empresarial, Marcos demonstra competência e responsabilidade no que faz. Um super parceiro de trabalho. Recomendo!",
   },
 ];
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Review from clients</h5>
+      <h5>Reviews from co-workers</h5>
       <h2>Testimonials</h2>
       <Swiper
         className="container testimonials__container"

@@ -1,3 +1,7 @@
+#about {
+  margin-top: 4rem;
+  position: static;
+}
 .about__container {
   display: grid;
   grid-template-columns: 35% 50%;
@@ -56,12 +60,25 @@
 }
 .about__card small {
   font-size: 0.7rem;
-  color: var(--color-light);
+  color: var(--color-white);
 }
 .about__content p {
-  margin: 2rem 0 2.6rem;
-  color: var(--color-light);
+  font-family: "Poppins", sans-serif;
+  margin: 0rem 0 0rem;
+  color: var(--color-white);
+  line-height: 2rem;
+  text-indent: 4rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
+.about__content p:first-of-type {
+  margin-top: 2rem;
+}
+.about__button {
+  margin: 2rem;
+  text-align: center;
+}
+
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ==*/
 @media screen and (max-width: 1024px) {
   .about__container {

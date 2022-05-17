@@ -1,7 +1,23 @@
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
 header {
-  height: 100vh;
+  min-height: 76vh;
   padding-top: 7rem;
-  overflow: hidden;
 }
 .header__container {
   text-align: center;
@@ -39,14 +55,25 @@ header {
   background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
   height: 30rem;
-  position: absolute;
+  position: inherit;
   left: 50%;
   transform: translateX(-50%);
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  padding: 3rem 1.5rem 1.5rem 1.5rem;
 }
+
+.me img:hover {
+  -webkit-animation: spin 1.5s linear infinite;
+  -moz-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+.me img {
+  border-radius: 9rem;
+  transition: var(--transition);
+}
+
 /* =================== SCROLL DOWN ================= */
 .scroll__down {
   position: absolute;

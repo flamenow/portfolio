@@ -11,46 +11,18 @@ const itemsPortfolio = [
   {
     id: 1,
     image: IMG1,
-    title: "Infográfico para Lincon Company.",
-    data: " Maio, 2022",
+    title: "Infographic for LB Company.",
+    data: " May, 2022",
     github: "https://www.behance.net/gallery/143760049/Infografico-CRM",
     demo: "",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    data: "Outubro, 2021",
-    github: "https://github.com/flamenow",
-    demo: "https://figma.com",
-  },
-  {
-    id: 3,
-    image: IMG3,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com/flamenow",
+    title: "SolarRocket logo",
+    data: " April, 2022",
+    github: "https://www.behance.net/gallery/143893435/SolarRocket-Logo?",
     demo: "",
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com/flamenow",
-    demo: "https://figma.com",
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com/flamenow",
-    demo: "https://figma.com",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com/flamenow",
-    demo: "https://figma.com",
   },
 ];
 
@@ -62,15 +34,7 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {itemsPortfolio.map(
-          ({
-            id,
-            image,
-            title,
-            data = "Maio, 2022.",
-            github,
-            demo,
-            hasDemo,
-          }) => {
+          ({ id, image, title, data = "Maio, 2022.", github, demo }) => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
