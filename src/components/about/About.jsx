@@ -18,51 +18,68 @@ const About = () => {
         </div>
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>2+ Years Studing</small>
-            </article>
-            <article className="about__card">
+            <a href="#services">
+              <article className="about__card">
+                <FaAward className="about__icon" />
+                <h5>Experience</h5>
+                <small>2+ Years Studing</small>
+              </article>
+            </a>
+            <article className="about__card" id="about__card--clients">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
               <small>5+ Satisfied</small>
             </article>
-            <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>6+ Completed</small>
-            </article>
+
+            <a href="#portfolio">
+              <article className="about__card">
+                <VscFolderLibrary className="about__icon" />
+                <h5>Projects</h5>
+                <small>6+ Completed</small>
+              </article>
+            </a>
           </div>
+          <p>Hello everybody! Pleased to meet you 🙂</p>
           <p>
-            My name is Marcos Mujica, 24, born in Montevideo - Uruguay, living
-            in Pelotas-RS, south of Brazil. I graduated in International Affairs
-            in 2019 at the Federal University of Pelotas - UFPel.
-          </p>
-          <p>
-            Since before the pandemic, I was already studying C, ladder,
-            assembly and delphi at my electronic vocational training at IFSul,
-            finished in 2018. In 2020 I joined Alura and started studiyng
-            WebDesign, User Experience, CSS, HTML, JavaScript, JAVA, PHP, RUBY
-            and more. After getting to know a little about both sides of web
-            development, I fell in love with UX and decided to focus in
-            front-end and UX.
+            I am Marcos Mujica, 24 years old. I was born in Montevideo, Uruguay,
+            naturalized brazilian when I was a child, living now in Pelotas, Rio
+            Grande do Sul. I graduated in International Relations in ealys 2020
+            at the Federal University of Pelotas (UFPel).
           </p>{" "}
           <p>
             {" "}
-            It was then that I did the UX Unicorn course, offered by the known
-            Leandro Rezende, where I formed a team and made a UX project.
+            Since before the pandemic, I was already studying C, Ladder,
+            Assembly and Delphi at my Electronic Vocational Training at IFSul,
+            which I finished in 2018.
           </p>
           <p>
-            I also lived 1 year in Gran Canária-Spain (2010), oppened my own
-            pizzaria (2021) and met amazing people in the process! Nowadays, I'm
-            searching for a full time job working as front-end dev or ux
-            designer. Meanwhile, I'm working as a freelancer web/graphic
-            designer to a few companies.
+            In 2020, I joined Alura and studied WebDesign, User Experience, CSS,
+            HTML, JavaScript, JAVA, PHP, RUBY and more. After I got to know a
+            little bit more about the two sides of web development, I fell in
+            love with UX and decided to focus on it and on front-end
+            development.
+          </p>
+          <p>
+            It was around that time that I did the UX Unicorn course, offered by
+            the well-known UX designer Leandro Rezende. This was when I firmed a
+            true passion for the field, formed a team and participated in a
+            really cool UX project which I will never forget.
+          </p>
+          <p>
+            Speaking a bit about the path that made me who I am: I lived a good
+            portion of my life in Uruguay as well as in Gran Canária-Spain for a
+            whole year. Also, inspired by the amazing culinary of my homeland
+            (of which my father never lets me forget), I even opened my own
+            uruguayan pizzaria, running the business and being a pizza maker!{" "}
+          </p>
+          <p>
+            Nowadays, while I work as a Freelancer Web/Graphic Designer to a few
+            companies and make some voice-overs in Spanish, I am looking for a
+            full time job to work as a Front-End Developer or UX Designer.
           </p>
           <div className="about__button">
             <a href="#contact" className="btn btn-large">
-              Let's Talk
+              Send me a message!
             </a>
           </div>
         </div>

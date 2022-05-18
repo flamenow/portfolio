@@ -3,7 +3,6 @@ import "./testimonials.css";
 import AVATAR1 from "../../assets/avatar1.jpg";
 import AVATAR2 from "../../assets/avatar2.jpg";
 import AVATAR3 from "../../assets/avatar3.jpg";
-import AVATAR4 from "../../assets/avatar4.jpg";
 
 // import Swiper core and required modules
 import { Pagination } from "swiper";
@@ -18,7 +17,8 @@ const testimonialsData = [
   {
     avatar: AVATAR1,
     name: "Marina Marchi",
-    review: "Yet to be taken",
+    review:
+      "Foi-me muito agradável o processo de construção do site, desde a troca de ideias até a paciência com a troca de informações e mudanças repentinas. Ademais, foram prestados os serviços de tradução e locução para os meus atendimentos. O site resultou funcional e de bom gosto e, por fim, o atendimento foi profissional, cordial e até mesmo divertido. Super recomendo seus serviços !",
   },
   {
     avatar: AVATAR2,

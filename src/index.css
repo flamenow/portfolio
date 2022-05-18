@@ -22,7 +22,8 @@
   --color-black: #000;
 
   --transition: all 400ms ease;
-
+  --shadow-box: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
@@ -97,6 +98,7 @@ a:hover {
   background: var(--color-white);
   color: var(--color-bg);
   border-color: transparent;
+  transform: scale(110%);
 }
 .btn-primary {
   background: var(--color-primary);

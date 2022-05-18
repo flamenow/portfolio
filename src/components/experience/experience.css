@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  overflow: hidden;
+  overflow: inherit;
 }
 .experience__backend,
 .experience__frontend {
@@ -10,13 +10,22 @@
   padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 1px solid transparent;
-  transition: var(--transition);
+  box-shadow: var(--shadow-box);
 }
 
-.experience__container > div:hover {
+#experience__container-1 {
+  background: var(--color-bg-variant);
+  transition: 2s;
+}
+#experience__container-1:hover {
   background: transparent;
-  border-color: var(--color-primary-variant);
-  cursor: default;
+}
+#experience__container-2 {
+  background: var(--color-bg-variant);
+  transition: 2s;
+}
+#experience__container-2:hover {
+  background: transparent;
 }
 
 .experience__container > div h3 {

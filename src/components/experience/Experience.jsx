@@ -3,21 +3,17 @@ import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
 const Experience = () => {
   return (
-    <section id="experiences ">
+    <section id="experiences">
       <h5>What Skills I have</h5>
       <h2>My Experience</h2>
 
       <div className="container experience__container">
         <div
           className="experience__frontend"
-          data-aos="slide-right"
-          data-aos-offset="0"
-          data-aos-delay="50"
-          data-aos-duration="1500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="false"
-          data-aos-once="true"
-          data-aos-anchor-placement="top-center"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          id="experience__container-1"
         >
           <h3>Frontend Development</h3>
           <div className="experience__content">
@@ -66,14 +62,10 @@ const Experience = () => {
 
         <div
           className="experience__backend "
-          data-aos="slide-left"
-          data-aos-offset="0"
-          data-aos-delay="50"
-          data-aos-duration="1500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="false"
-          data-aos-once="true"
-          data-aos-anchor-placement="top-center"
+          data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          id="experience__container-2"
         >
           <h3>Web Design</h3>
           <div className="experience__content">
