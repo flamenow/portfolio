@@ -43,7 +43,7 @@ const About = () => {
           <p>
             I am Marcos Mujica, 24 years old. I was born in Montevideo, Uruguay,
             naturalized brazilian when I was a child, living now in Pelotas, Rio
-            Grande do Sul. I graduated in International Relations in ealys 2020
+            Grande do Sul. I graduated in International Relations in early 2020
             at the Federal University of Pelotas (UFPel).
           </p>{" "}
           <p>
@@ -78,7 +78,7 @@ const About = () => {
             full time job to work as a Front-End Developer or UX Designer.
           </p>
           <div className="about__button">
-            <a href="#contact" className="btn btn-large">
+            <a href="#contact" className="btn">
               Send me a message!
             </a>
           </div>

@@ -25,7 +25,7 @@
   --shadow-box: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   --container-width-lg: 75%;
-  --container-width-md: 86%;
+  --container-width-md: 30%;
   --container-width-sm: 90%;
 }
 html {
@@ -60,9 +60,7 @@ h1 {
   font-size: 2.5rem;
 }
 section {
-  margin-top: 5rem;
-  min-height: min-content + 4rem;
-  /* margin-top: 8rem; */
+  margin-top: 8rem;
 }
 section > h2,
 section > h5 {
@@ -121,6 +119,7 @@ img {
 @media screen and(max-width: 1024px) {
   .container {
     width: var(--container-width-md);
+    min-height: fit-content;
   }
   section {
     margin-top: 6rem;
