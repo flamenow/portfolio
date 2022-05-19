@@ -2,33 +2,53 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
+  overflow: inherit;
 }
-.experience__container > div {
+.experience__backend,
+.experience__frontend {
   background: var(--color-bg-variant);
   padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 1px solid transparent;
-  transition: var(--transition);
+  box-shadow: var(--shadow-box);
 }
 
-.experience__container > div:hover {
-  background: transparent;
-  border-color: var(--color-primary-variant);
-  cursor: default;
+#experience__container-1 {
+  background: var(--color-bg-variant);
+  transition: 2s;
 }
+#experience__container-1:hover {
+  background: transparent;
+}
+#experience__container-2 {
+  background: var(--color-bg-variant);
+  transition: 2s;
+}
+#experience__container-2:hover {
+  background: transparent;
+}
+
 .experience__container > div h3 {
   text-align: center;
   margin-bottom: 2rem;
   color: var(--color-primary);
+  font-size: 2rem;
 }
 .experience__content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
+  grid-template-areas:
+    ". ."
+    ". ."
+    "experience__details-last-child experience__details-last-child";
 }
 .experience__details {
   margin: auto;
   text-align: center;
+}
+#experience__details-last-child {
+  grid-area: experience__details-last-child;
 }
 .experience__details-icon {
   margin-top: 6px;

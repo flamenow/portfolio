@@ -9,6 +9,7 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  box-shadow: var(--shadow-box);
 }
 .portfolio__item:hover {
   border-color: var(--color-primary-variant);
@@ -18,8 +19,23 @@
   border-radius: 1.5rem;
   overflow: hidden;
 }
+.portfolio__item-image img {
+  max-height: 187px;
+  overflow: hidden;
+  filter: opacity(0.75);
+  transition: 0.5s;
+}
+.portfolio__item-image :hover {
+  max-height: 187px;
+  overflow: hidden;
+  filter: opacity(1);
+}
 .portfolio__item h3 {
-  margin: 1.2rem 0 2rem;
+  margin: 1.2rem 0 0rem;
+}
+.portfolio__item-data {
+  text-align: end;
+  margin-bottom: 1rem;
 }
 .portfolio__item-cta {
   display: flex;

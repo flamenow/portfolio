@@ -17,7 +17,7 @@ const Footer = () => {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#experiences">Experience</a>
         </li>
         <li>
           <a href="#services">Services</a>
@@ -33,13 +33,13 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://facebook.com">
+        <a href="https://facebook.com/marcos.mujicamachado">
           <GrFacebookOption />
         </a>
-        <a href="https://instagram.com">
+        <a href="https://instagram.com/m_mujica_m">
           <FiInstagram />
         </a>
-        <a href="https://github.com">
+        <a href="https://github.com/flamenow">
           <BsGithub />
         </a>
       </div>

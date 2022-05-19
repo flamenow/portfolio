@@ -16,6 +16,7 @@
   padding: 2rem;
   border-radius: 2rem;
   user-select: none;
+  box-shadow: var(--shadow-box);
 }
 .client__review {
   color: var(--color-light);

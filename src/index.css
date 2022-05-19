@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@300;400;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
 
 * {
   margin: 0;
@@ -12,16 +13,19 @@
 
 :root {
   --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-bg-variant: #1c1c5e;
+  --color-primary: #4da9ff;
+  /* #4db5ff */
+  --color-primary-variant: #114e5e;
   --color-white: rgb(243, 243, 243);
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light: rgba(255, 255, 255, 0.863);
+  --color-black: #000;
 
   --transition: all 400ms ease;
-
+  --shadow-box: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   --container-width-lg: 75%;
-  --container-width-md: 86%;
+  --container-width-md: 30%;
   --container-width-sm: 90%;
 }
 html {
@@ -33,6 +37,7 @@ html {
 
 body {
   font-family: "Hepta Slab", serif;
+  /* font-family: "Poppins", sans-serif; */
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
@@ -91,10 +96,18 @@ a:hover {
   background: var(--color-white);
   color: var(--color-bg);
   border-color: transparent;
+  transform: scale(110%);
 }
 .btn-primary {
   background: var(--color-primary);
   color: var(--color-bg);
+}
+.btn-large {
+  padding: 1rem 6rem 1rem 6rem;
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+  font-weight: 500;
+  font-size: large;
 }
 img {
   display: block;
@@ -106,6 +119,7 @@ img {
 @media screen and(max-width: 1024px) {
   .container {
     width: var(--container-width-md);
+    min-height: fit-content;
   }
   section {
     margin-top: 6rem;
